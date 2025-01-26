@@ -6,7 +6,6 @@ Escultura. Laia l'arquera de Josep M. Rovira i Brull
 GCHM+RP Mataró
 
 41.529636657850936
-
 2.434332551664541
 
 ## Zoom de captura
