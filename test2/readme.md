@@ -21,4 +21,4 @@ Importamos el objeto y reescalamos a 0.5
 
 
 ## Resultado TD2
-https://youtu.be/v_ZYdcA8W4c
+[![Ver en YouTube](https://img.youtube.com/vi/v_ZYdcA8W4c/0.jpg)](https://www.youtube.com/watch?v=v_ZYdcA8W4c)
