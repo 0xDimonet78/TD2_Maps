@@ -172,22 +172,3 @@ J9FW+WQ Cabañas Raras
 
 42.62480908540567
 -6.603155771650859
-
-## Nueva Ubicación
-Código Plus (opcional)
-
-40.416775
--3.703790
-
-## Karting Cabañas Raras
-J9FW+WQ Cabañas Raras
-
-42.62480908540567
--6.603155771650859
- 
-## Karting Roses
-75H5+4H La Garriga
-
-42.27829403388806
-3.1591571494292685
-
