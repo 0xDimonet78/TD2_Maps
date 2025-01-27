@@ -1,6 +1,5 @@
 name: Generate Locations JS
 
-# Disparador del workflow: se ejecuta en cada push que afecte a 'Spain Locations.md'
 on:
   push:
     paths:
@@ -8,30 +7,27 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04  # Actualizar a la nueva versión de Ubuntu
 
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
-        # Este paso clona el repositorio en el entorno de GitHub Actions
 
       - name: Set up Python
         uses: actions/setup-python@v2
         with:
           python-version: '3.x'
-        # Este paso configura Python en el entorno
 
       - name: Generate locations.js
         run: |
           python generate_locations_js.py
-        # Este paso ejecuta el script de Python que genera el archivo locations.js
 
       - name: Commit and push changes
+        env:
+          GITHUB_TOKEN: ${{ secrets.PAT }}  # Usar el token de acceso personal
         run: |
           git config --global user.name 'github-actions'
           git config --global user.email 'github-actions@github.com'
           git add locations.js
           git commit -m 'Update locations.js'
           git push
-        # Este paso configura Git, añade el archivo locations.js al commit,
-        # realiza el commit y sube los cambios al repositorio
