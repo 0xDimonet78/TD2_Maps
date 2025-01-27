@@ -178,3 +178,9 @@ Código Plus (opcional)
 
 40.416775
 -3.703790
+
+## Nueva Ubicación
+Código Plus (opcional)
+
+40.416775
+-3.703790
