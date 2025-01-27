@@ -178,3 +178,9 @@ Código Plus (opcional)
 
 40.416775
 -3.703790
+
+## Karting Cabañas Raras
+J9FW+WQ Cabañas Raras
+
+42.62480908540567
+-6.603155771650859
