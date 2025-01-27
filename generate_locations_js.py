@@ -18,7 +18,7 @@ else:
     js_content += '];\n'
 
     # Guardar el contenido en locations.js
-    with open('Docs/locations.js', 'w', encoding='utf-8') as file:
+    with open('locations.js', 'w', encoding='utf-8') as file:
         file.write(js_content)
 
     print("locations.js ha sido generado con éxito.")
