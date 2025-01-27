@@ -23,7 +23,7 @@
                 attribution: '© OpenStreetMap contributors'
             }).addTo(map);
 
-            fetch('../locations.js')
+            fetch('/locations.js')
                 .then(response => response.json())
                 .then(locations => {
                     locations.forEach(function(location) {
