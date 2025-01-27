@@ -2,4 +2,4 @@
 
 Este mapa muestra las ubicaciones geográficas de varios puntos de interés.
 
-[Ver Mapa Interactivo](https://dimonet78.github.io/TD2_Maps)
+<a href="https://dimonet78.github.io/TD2_Maps" target="_blank">Ver Mapa Interactivo</a>
