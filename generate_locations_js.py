@@ -2,7 +2,7 @@ import re
 import json
 
 # Leer el contenido del archivo Spain Locations.md con codificación utf-8
-with open('Spain Locations.md', 'r', encoding='utf-8') as file:
+with open('Locations.md', 'r', encoding='utf-8') as file:
     content = file.read()
 
 # Expresión regular mejorada para extraer nombres y coordenadas
@@ -10,7 +10,7 @@ with open('Spain Locations.md', 'r', encoding='utf-8') as file:
 locations = re.findall(r'## (.+?)\n(?:.+?\n)?\n(.+?)\n(.+?)\n', content)
 
 if not locations:
-    print("No se encontraron ubicaciones. Verifica el formato del archivo Spain Locations.md.")
+    print("No se encontraron ubicaciones. Verifica el formato del archivo Locations.md.")
 else:
     # Crear una lista de diccionarios para las ubicaciones
     locations_list = [{"name": name, "lat": float(lat), "lng": float(lon)} for name, lat, lon in locations]
