@@ -16,5 +16,3 @@ Este mapa muestra las ubicaciones geográficas de varios puntos de interés.
 
 ## Locations.md
 si quieres agregar cualquier ubicacion al mapa interactivo, puedes modificar el archivo Locations.md y se actualizará en unos minutos
-
-<iframe src="https://player.twitch.tv/?channel=0xdimonet78&parent=www.example.com" frameborder="0" allowfullscreen="true" scrolling="no" height="378" width="620"></iframe>
