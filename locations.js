@@ -29,4 +29,5 @@ const locations = [
   { name: "Karting Cabañas Raras", coords: [42.62480908540567, -6.603155771650859] },
   { name: "Nueva Ubicación", coords: [40.416775, -3.703790] },
   { name: "Karting Cabañas Raras", coords: [42.62480908540567, -6.603155771650859] },
+  { name: "Karting Roses", coords: [42.27829403388806, 3.1591571494292685] },
 ];
