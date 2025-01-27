@@ -15,10 +15,16 @@ jobs:
         uses: actions/checkout@v2
         # Este paso clona el repositorio en el entorno de GitHub Actions
 
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.x'
+        # Este paso configura Python en el entorno
+
       - name: Generate locations.js
         run: |
           python generate_locations_js.py
-        # Este paso ejecuta un script de Python que genera el archivo locations.js
+        # Este paso ejecuta el script de Python que genera el archivo locations.js
 
       - name: Commit and push changes
         run: |
