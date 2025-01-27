@@ -8,10 +8,11 @@ de autopista o carretera local y correr como nunca, unete a nuestra comunidad pa
 Visita nuestra web 
 <a href="https://dimonet78.github.io/TD2_Mapping" target="_blank">dimonet78.github.io/TD2_Mapping</a>
 
-
-
 ## Mapa de Geolocalizaciones
 
 Este mapa muestra las ubicaciones geográficas de varios puntos de interés.
 
 <a href="https://dimonet78.github.io/TD2_Maps" target="_blank">Ver Mapa Interactivo</a>
+
+## Locations.md
+si quieres agregar cualquier ubicacion al mapa interactivo, puedes modificar el archivo Locations.md y se actualizará en unos minutos
