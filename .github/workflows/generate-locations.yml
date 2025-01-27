@@ -2,6 +2,9 @@ name: Generate Locations JS and JSON
 
 on: [push]
 
+permissions:
+  contents: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
