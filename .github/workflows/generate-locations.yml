@@ -7,7 +7,7 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-24.04  # Actualizar a la nueva versión de Ubuntu
+    runs-on: ubuntu-24.04  # Usar la versión más reciente de Ubuntu
 
     steps:
       - name: Checkout code
@@ -29,5 +29,5 @@ jobs:
           git config --global user.name 'github-actions'
           git config --global user.email 'github-actions@github.com'
           git add locations.js
-          git commit -m 'Update locations.js'
-          git push
+          git commit -m 'Update locations.js' || echo "No changes to commit"
+          git push https://x-access-token:${{ secrets.PAT }}@github.com/dimonet78/TD2_Maps.git HEAD:main
