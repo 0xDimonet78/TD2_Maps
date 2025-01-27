@@ -21,4 +21,4 @@ else:
     with open('locations.json', 'w', encoding='utf-8') as file:
         file.write(js_content)
 
-    print("locations.js ha sido generado con éxito.")
+    print("locations.json ha sido generado con éxito.")
