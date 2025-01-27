@@ -1,0 +1,31 @@
+name: Generate Locations JS
+
+# Disparador del workflow: se ejecuta en cada push que afecte a 'Spain Locations.md'
+on:
+  push:
+    paths:
+      - 'Spain Locations.md'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+        # Este paso clona el repositorio en el entorno de GitHub Actions
+
+      - name: Generate locations.js
+        run: |
+          python generate_locations_js.py
+        # Este paso ejecuta un script de Python que genera el archivo locations.js
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name 'github-actions'
+          git config --global user.email 'github-actions@github.com'
+          git add locations.js
+          git commit -m 'Update locations.js'
+          git push
+        # Este paso configura Git, añade el archivo locations.js al commit,
+        # realiza el commit y sube los cambios al repositorio
