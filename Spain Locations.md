@@ -1,5 +1,101 @@
 # Spain Locations.md
 
+## Karting Empuriabrava
+7466+2R Ampuriabrava
+
+42.260235313146545
+3.112099766808028
+
+## Karting Cross Costa Brava
+7476+G6 Ampuriabrava
+
+42.263823103265395
+3.1105660716885777
+
+## Go Karts l'Escala
+445F+HJ Bellcaire d'Empordà
+
+42.10892206257914
+3.124015312651695
+
+## Karting L'Estartit
+25V2+QG Torroella de Montgrí
+
+42.04442273105962
+3.1512602498125046
+
+## Karting Palamós S.L.
+V49P+RF Palamós
+
+41.86958948618812
+3.136155735856068
+
+## Karting Formula Lloret
+PR6M+C5 Lloret de Mar
+
+41.711111994610285
+2.8329921516494223
+
+## Karting Blanes
+MQF7+24 Blanes
+
+41.67267296278026
+2.76284943083873
+
+## Circuito de Osona
+W7XJ+VH Vic
+
+41.94978274432171
+2.2815329680941514
+
+## Karting Cardedeu
+J8MP+JP Cardedeu
+
+41.634225885645336
+2.336791482887649
+
+## Karting Sallent
+QVMQ+W9 Sallent
+
+41.784951931311426
+1.8883826953248393
+
+## Karting El Pla
+8939+94 El Pla de Sant Tirs
+
+42.30354673204668
+1.367877391727089
+
+## Karting Vendrell
+5GXH+7F El Vendrell
+
+41.198271955755395
+1.5287677636966646
+
+## KARTING COMA-RUGA
+5GRG+XC Comarruga
+
+41.19258186890962
+1.5260801818252223
+
+## Karting Altafulla
+49RM+69 Altafulla
+
+41.140747077013216
+1.3834183088675271
+
+## Circuito de Calafat
+WRJP+3G Calafat
+
+40.93039760949668
+0.836284940462755
+
+## Karting Móra
+3JG9+CG Móra d'Ebre
+
+41.07624068709061
+0.6187725690779695
+
 ## Karting Roses
 75H5+4H La Garriga
 
