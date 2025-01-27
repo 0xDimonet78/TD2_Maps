@@ -27,4 +27,5 @@ const locations = [
   { name: "Aspar Circuit", coords: [39.22629041296783, -0.4674253688764078] },
   { name: "Circuit Ricardo Tormo", coords: [39.48489343683075, -0.6265450635638412] },
   { name: "Karting Cabañas Raras", coords: [42.62480908540567, -6.603155771650859] },
+  { name: "Karting Cabañas Raras", coords: [42.62480908540567, -6.603155771650859] },
 ];
