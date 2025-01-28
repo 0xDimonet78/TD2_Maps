@@ -1,4 +1,4 @@
-# Spain Locations.md
+# Locations.md
 
 ## Karting Empuriabrava
 7466+2R Ampuriabrava
@@ -172,9 +172,3 @@ J9FW+WQ Cabañas Raras
 
 42.62480908540567
 -6.603155771650859
-
-## toma
-G6XF+F78 Mollet del Vallès
-
-40.54865447922224
-2.223217211067214
